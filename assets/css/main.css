@@ -682,6 +682,10 @@ body.light-theme{
     gap: var(--gap);
 }
 
+.blog-post-container .container .indent{
+margin-left: 30px;
+}
+
 .quote{
     background-color: var(--secondary-background-color);
     padding: 2.5rem;
