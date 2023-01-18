@@ -779,8 +779,8 @@ margin-left: 30px;
 @media screen and (min-width: 768px) {
 
     .featured-content{
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 5rem repeat(4, 1fr);
+        grid-template-columns: repeat(4, 2fr);
+        grid-template-rows: 5rem repeat(4, 2fr);
     }
     
     .featured-article{
