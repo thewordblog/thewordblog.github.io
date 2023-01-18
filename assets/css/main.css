@@ -730,6 +730,13 @@ margin-left: 30px;
     font-size: 10;
 }
 
+.blog-image{
+    border-radius: 15px;
+}
+
+.quote{
+    border-radius: 15px;
+}
 
 @media screen and (min-width: 700px) {
 
