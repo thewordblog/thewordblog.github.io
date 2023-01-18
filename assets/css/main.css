@@ -85,6 +85,7 @@ body.light-theme{
     max-width: 160rem;
     margin: 0 auto;
     padding: 0 1.5rem;
+    border-radius: 15px;
 }
 
 .place-items-center{
@@ -95,6 +96,7 @@ body.light-theme{
 
 .section:not(.featured-articles){
     padding-block: 5rem;
+    border-radius: 15px;
 }
 
 .d-grid{
@@ -119,6 +121,7 @@ body.light-theme{
     align-items: center;
     justify-content: space-between;
     padding-block: 1.5rem;
+    border-radius: 15px;
 }
 
 .logo{
@@ -136,6 +139,7 @@ body.light-theme{
     opacity: 0;
     transform: scale(0);
     transition: opacity .25s ease-in;
+    border-radius: 15px;
 }
 
 .list{
@@ -232,6 +236,7 @@ body.light-theme{
     border: 2px solid var(--secondary-background-color);
     padding: 1.5rem;
     color: var(--light-color-alt);
+    border-radius: 15px;
 }
 
 .form-input{
@@ -283,29 +288,6 @@ body.light-theme{
     gap: var(--gap);
 }
 
-.headline-banner{
-    background-color: var(--secondary-background-color);
-    display: flex;
-    align-items: center;
-    gap: var(--gap);
-    font-size: var(--font-size-xsm);
-}
-
-.headline{
-    background-color: #000;
-    color: var(--light-color);
-    font-size: 1rem;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-    padding: 4px;
-    height: 100%;
-}
-
-.headline span{
-    height: inherit;
-}
-
 .fancy-border{
     position: relative;
     overflow: hidden;
@@ -342,6 +324,7 @@ body.light-theme{
     height: 100%;
     object-fit: cover;
     transition: transform .25s;
+    border-radius: 15px;
 }
 
 .article-category{
@@ -354,6 +337,7 @@ body.light-theme{
     color: var(--light-color);
     text-transform: uppercase;
     z-index: 10;
+    border-radius: 10px;
 }
 
 .article-data-container{
@@ -388,6 +372,7 @@ body.light-theme{
     gap: var(--gap);
     font-size: var(--font-size-xsm);
     margin-bottom: 1rem;
+    border-radius: 15px;
 }
 
 .article-data-spacer{
@@ -417,6 +402,7 @@ body.light-theme{
     gap: var(--gap);
     padding-block: 2rem;
     border-bottom: 1px solid var(--transparent-light-color);
+    border-radius: 15px;
 }
 
 .trending-news-box:last-of-type{
@@ -563,6 +549,7 @@ body.light-theme{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
+    border-radius: 15px;
 }
 
 .popular-tags-container .article:hover .tag-name{
@@ -780,11 +767,6 @@ margin-left: 30px;
     .featured-content{
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 5rem repeat(4, 1fr);
-    }
-
-    .headline-banner{
-        grid-column: 1/-1;
-        font-size: var(--font-size-sm);
     }
     
     .featured-article{
