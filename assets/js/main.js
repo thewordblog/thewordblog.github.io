@@ -89,5 +89,30 @@ const swiper = new Swiper(".swiper", {
     }   
 });
 
+const searchBar = document.querySelector('.search-bar');
+const searchButton = document.querySelector('.search-button');
+const allArticles = document.querySelectorAll('.article');
+
+function search() {
+  const searchTerm = searchBar.value.toLowerCase();
+  allArticles.forEach(function(article) {
+    const title = article.querySelector('.article-title').textContent.toLowerCase();
+    if (title.indexOf(searchTerm) === -1) {
+      article.style.display = 'none';
+    } else {
+      article.style.display = 'block';
+    }
+  });
+}
+
+searchButton.addEventListener('click', search);
+
+searchBar.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter') {
+    search();
+  }
+});
+
+
 
   

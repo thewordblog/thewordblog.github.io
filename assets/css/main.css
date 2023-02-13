@@ -769,6 +769,38 @@ margin-left: 30px;
     margin-bottom: var(--margin-sm);
 }
 
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+  
+  .search-bar {
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--secondary-background-color);
+  }
+  
+  .search-button {
+    width: 50px;
+    height: 40px;
+    background-color:var(--secondary-background-color) ;
+    color: white;
+    font-size: 20px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+
 
 @media screen and (min-width: 700px) {
 
