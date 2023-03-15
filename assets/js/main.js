@@ -103,6 +103,4 @@ searchBar.addEventListener('keydown', function(event) {
   }
 });
 
-
-
-  
+ 
